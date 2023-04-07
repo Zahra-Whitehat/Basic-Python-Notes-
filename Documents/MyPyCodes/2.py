@@ -23,6 +23,9 @@ t = math.sqrt
 list1 = ['aa','bb','cc','dd','ee']
 list2 = "zahra"
 list3 = [0,1,2,3,4,5,6,7,8,9]
+list4 = [7,8,56,3,12]
+#تاپل مثل ليست است ولي هيچ کاري جز صدازدن عناصرش نميتوان کرد.
+tuple1 = (2,5,1,'g')
 
 print(number*x + y)
 print(pow(number,5))
@@ -57,9 +60,13 @@ list1.remove(8)
 print(list1)
 list1.reverse()
 print(list1)
-
+#اين تابع به صورت مستقيم در پرينت کار نمي کند.
+list4.sort()
+print(list4)
+print(sorted(list2))
 print('z' in list2)
 print('a' in list1)
+print(tuple1[2])
 
 
 
